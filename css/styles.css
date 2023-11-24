@@ -25,7 +25,13 @@ header > img {
 
 nav ul {
     display: flex;
+    justify-content: space-evenly;
+    list-style: none;
     align-items: center;
+}
+
+nav a {
+    color: blue;
 }
 
 h1 {
