@@ -35,7 +35,7 @@ h1 {
 }
 
 main {
-    background-color: yellow;
+    background-color:aquamarine;
     font-size: 105%;
 }
 
@@ -90,6 +90,14 @@ a[href="#main"] {
 
 a[href="#main"]:focus {
     opacity: 1;
+}
+
+#homeImage {
+    border-radius: 5%;
+}
+
+.grid img {
+    border-radius: 5%;
 }
 
 .flex img:nth-child(even) {
