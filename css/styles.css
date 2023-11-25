@@ -83,3 +83,25 @@ footer {
     width: 100%;
     margin: 20px;
 }
+
+a[href="#main"] {
+    opacity: 0.01;
+}
+
+a[href="#main"]:focus {
+    opacity: 1;
+}
+
+.flex img:nth-child(even) {
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.flex img:nth-child(odd) {
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.flex img:hover {
+    scale: 1.1;
+}
